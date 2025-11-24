@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #e21717;
+}
+
+h2 {
+    color: #4c4c4c;
+    margin-top: 5px;
+}
+
+/* Foto */
+.foto-perfil img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ff0202;
+}
+
+/* Texto descriptivo */
+.descripcion {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Listas */
+ul, ol {
+    max-width: 600px;
+    margin: 20px auto;
+    padding-left: 40px;
+}
+
+/* Tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+table th, table td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #fe0000;
+    color: white;
+}
+h3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
