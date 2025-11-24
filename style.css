@@ -75,3 +75,51 @@ h3 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+/* Formulario de contacto */
+.contacto {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.contacto h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto label {
+    font-weight: bold;
+}
+
+.contacto input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+
+.contacto button {
+    padding: 12px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contacto button:hover {
+    background-color: #ff0202;
+}
